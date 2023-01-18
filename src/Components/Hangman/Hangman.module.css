@@ -1,0 +1,49 @@
+.hangman {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.head {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.body {
+  transform: rotate(90deg);
+  width: 23%;
+  border: 3px solid black;
+}
+
+.leftarm {
+  width: 8%;
+  border: 3px solid black;
+  transform: translate(11px, 0px) rotate(-30deg);
+}
+
+.rightarm {
+  width: 8%;
+  border: 3px solid black;
+  transform: translate(-12px, -5px) rotate(-149deg);
+}
+.leftleg {
+  width: 8%;
+  border: 3px solid black;
+  transform: translate(9px, 23px) rotate(42deg);
+}
+
+.rightleg {
+  width: 8%;
+  border: 3px solid black;
+  transform: translate(-10px, 17px) rotate(139deg);
+}
+
+.body,
+.head,
+.leftarm,
+.rightarm,
+.leftleg,
+.rightleg {
+  margin: 0 auto;
+}
